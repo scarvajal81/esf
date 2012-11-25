@@ -46,9 +46,8 @@
 	
 	 // render entire view (display)
 	 print $controllerObj->render($esf_pg);
-	  
-	 // print_r($controllerObj);
- } 
+    
+  } 
  catch(Exception $e) 
  {
 	 die($e->getMessage());
